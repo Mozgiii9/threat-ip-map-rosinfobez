@@ -1,0 +1,1550 @@
+[
+  {
+    "ip": "198.51.100.169",
+    "count": 4988,
+    "country": "Сингапур",
+    "countryCode": "SG",
+    "lat": 1.8427,
+    "lon": 102.3587,
+    "attacks": 4988,
+    "incidents": 67,
+    "ports": [
+      22
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.81",
+    "count": 4982,
+    "country": "Румыния",
+    "countryCode": "RO",
+    "lat": 43.1167,
+    "lon": 24.6211,
+    "attacks": 4982,
+    "incidents": 29,
+    "ports": [
+      53,
+      139,
+      3389
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.199",
+    "count": 4974,
+    "country": "Индонезия",
+    "countryCode": "ID",
+    "lat": -5.9899,
+    "lon": 108.29,
+    "attacks": 4974,
+    "incidents": 44,
+    "ports": [
+      21,
+      443,
+      1433
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.190",
+    "count": 4915,
+    "country": "Япония",
+    "countryCode": "JP",
+    "lat": 35.223,
+    "lon": 140.9674,
+    "attacks": 4915,
+    "incidents": 42,
+    "ports": [
+      443,
+      3306,
+      3389,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.199",
+    "count": 4911,
+    "country": "Китай",
+    "countryCode": "CN",
+    "lat": 38.9288,
+    "lon": 117.5349,
+    "attacks": 4911,
+    "incidents": 51,
+    "ports": [
+      22,
+      135,
+      5432
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.224",
+    "count": 4884,
+    "country": "Украина",
+    "countryCode": "UA",
+    "lat": 51.4882,
+    "lon": 30.6405,
+    "attacks": 4884,
+    "incidents": 25,
+    "ports": [
+      22,
+      53,
+      445,
+      3389
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.111",
+    "count": 4803,
+    "country": "Аргентина",
+    "countryCode": "AR",
+    "lat": -34.116,
+    "lon": -58.7973,
+    "attacks": 4803,
+    "incidents": 31,
+    "ports": [
+      21
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.247",
+    "count": 4701,
+    "country": "Иран",
+    "countryCode": "IR",
+    "lat": 35.1822,
+    "lon": 50.6449,
+    "attacks": 4701,
+    "incidents": 36,
+    "ports": [
+      25,
+      80,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.249",
+    "count": 4694,
+    "country": "Индия",
+    "countryCode": "IN",
+    "lat": 28.3946,
+    "lon": 78.3697,
+    "attacks": 4694,
+    "incidents": 32,
+    "ports": [
+      3306,
+      6379
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.68",
+    "count": 4652,
+    "country": "Польша",
+    "countryCode": "PL",
+    "lat": 53.0313,
+    "lon": 22.4861,
+    "attacks": 4652,
+    "incidents": 30,
+    "ports": [
+      5432,
+      8080
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.58",
+    "count": 4635,
+    "country": "Индонезия",
+    "countryCode": "ID",
+    "lat": -6.9726,
+    "lon": 107.0026,
+    "attacks": 4635,
+    "incidents": 28,
+    "ports": [
+      135,
+      445,
+      8080
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.81",
+    "count": 4606,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 53.7908,
+    "lon": 4.8989,
+    "attacks": 4606,
+    "incidents": 30,
+    "ports": [
+      80,
+      110,
+      135,
+      8080
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.232",
+    "count": 4568,
+    "country": "Вьетнам",
+    "countryCode": "VN",
+    "lat": 21.5717,
+    "lon": 105.5971,
+    "attacks": 4568,
+    "incidents": 26,
+    "ports": [
+      23,
+      110,
+      6379,
+      8080
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.237",
+    "count": 4561,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 51.0904,
+    "lon": 3.9672,
+    "attacks": 4561,
+    "incidents": 24,
+    "ports": [
+      135,
+      3389
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.238",
+    "count": 4482,
+    "country": "Индонезия",
+    "countryCode": "ID",
+    "lat": -6.7482,
+    "lon": 107.4163,
+    "attacks": 4482,
+    "incidents": 35,
+    "ports": [
+      22,
+      445,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.51",
+    "count": 4472,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 10.3185,
+    "lon": 6.6336,
+    "attacks": 4472,
+    "incidents": 22,
+    "ports": [
+      3306
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.222",
+    "count": 4412,
+    "country": "Бразилия",
+    "countryCode": "BR",
+    "lat": -23.7466,
+    "lon": -47.9673,
+    "attacks": 4412,
+    "incidents": 27,
+    "ports": [
+      1433
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.226",
+    "count": 4356,
+    "country": "Румыния",
+    "countryCode": "RO",
+    "lat": 45.5443,
+    "lon": 27.1825,
+    "attacks": 4356,
+    "incidents": 30,
+    "ports": [
+      53,
+      135,
+      3389,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.225",
+    "count": 4352,
+    "country": "Египет",
+    "countryCode": "EG",
+    "lat": 29.6784,
+    "lon": 31.6026,
+    "attacks": 4352,
+    "incidents": 35,
+    "ports": [
+      445,
+      6379
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.246",
+    "count": 4289,
+    "country": "Вьетнам",
+    "countryCode": "VN",
+    "lat": 21.494,
+    "lon": 105.3184,
+    "attacks": 4289,
+    "incidents": 34,
+    "ports": [
+      110,
+      445,
+      5432
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.19",
+    "count": 4241,
+    "country": "Индия",
+    "countryCode": "IN",
+    "lat": 28.1541,
+    "lon": 76.9487,
+    "attacks": 4241,
+    "incidents": 47,
+    "ports": [
+      3306,
+      6379
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.103",
+    "count": 4157,
+    "country": "Канада",
+    "countryCode": "CA",
+    "lat": 46.4396,
+    "lon": -74.33,
+    "attacks": 4157,
+    "incidents": 39,
+    "ports": [
+      21,
+      443,
+      3389,
+      6379
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.86",
+    "count": 4153,
+    "country": "США",
+    "countryCode": "US",
+    "lat": 40.3296,
+    "lon": -77.5648,
+    "attacks": 4153,
+    "incidents": 45,
+    "ports": [
+      139,
+      8080,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.214",
+    "count": 3794,
+    "country": "Польша",
+    "countryCode": "PL",
+    "lat": 51.7263,
+    "lon": 22.4875,
+    "attacks": 3794,
+    "incidents": 41,
+    "ports": [
+      53,
+      139,
+      443,
+      5432
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.192",
+    "count": 3790,
+    "country": "Мексика",
+    "countryCode": "MX",
+    "lat": 18.7956,
+    "lon": -98.1119,
+    "attacks": 3790,
+    "incidents": 29,
+    "ports": [
+      135,
+      443,
+      445,
+      3389
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.68",
+    "count": 3789,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 9.4238,
+    "lon": 7.2021,
+    "attacks": 3789,
+    "incidents": 47,
+    "ports": [
+      5432,
+      6379,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.172",
+    "count": 3760,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 9.419,
+    "lon": 7.1234,
+    "attacks": 3760,
+    "incidents": 41,
+    "ports": [
+      23,
+      80,
+      3306,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.156",
+    "count": 3746,
+    "country": "Сингапур",
+    "countryCode": "SG",
+    "lat": 1.6328,
+    "lon": 103.3417,
+    "attacks": 3746,
+    "incidents": 36,
+    "ports": [
+      21
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "192.0.2.207",
+    "count": 3682,
+    "country": "Вьетнам",
+    "countryCode": "VN",
+    "lat": 20.2122,
+    "lon": 105.1454,
+    "attacks": 3682,
+    "incidents": 32,
+    "ports": [
+      25,
+      443,
+      5900
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.98",
+    "count": 3604,
+    "country": "Египет",
+    "countryCode": "EG",
+    "lat": 31.453,
+    "lon": 30.7808,
+    "attacks": 3604,
+    "incidents": 56,
+    "ports": [
+      23,
+      3306,
+      8080
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.231",
+    "count": 3570,
+    "country": "Польша",
+    "countryCode": "PL",
+    "lat": 51.9566,
+    "lon": 20.7981,
+    "attacks": 3570,
+    "incidents": 33,
+    "ports": [
+      139,
+      443,
+      5900
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.99",
+    "count": 3546,
+    "country": "Таиланд",
+    "countryCode": "TH",
+    "lat": 12.643,
+    "lon": 99.9037,
+    "attacks": 3546,
+    "incidents": 18,
+    "ports": [
+      5432
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.236",
+    "count": 3504,
+    "country": "Сингапур",
+    "countryCode": "SG",
+    "lat": 0.9723,
+    "lon": 103.6281,
+    "attacks": 3504,
+    "incidents": 22,
+    "ports": [
+      21,
+      80,
+      5900,
+      27017
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.13",
+    "count": 3416,
+    "country": "США",
+    "countryCode": "US",
+    "lat": 39.9803,
+    "lon": -76.0335,
+    "attacks": 3416,
+    "incidents": 20,
+    "ports": [
+      21
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.28",
+    "count": 3398,
+    "country": "Индия",
+    "countryCode": "IN",
+    "lat": 27.4331,
+    "lon": 78.1167,
+    "attacks": 3398,
+    "incidents": 34,
+    "ports": [
+      110,
+      139
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.166",
+    "count": 3357,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 52.8386,
+    "lon": 4.2256,
+    "attacks": 3357,
+    "incidents": 26,
+    "ports": [
+      135,
+      1433
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.187",
+    "count": 3309,
+    "country": "Бразилия",
+    "countryCode": "BR",
+    "lat": -23.1796,
+    "lon": -46.7016,
+    "attacks": 3309,
+    "incidents": 19,
+    "ports": [
+      135,
+      443,
+      445
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.170",
+    "count": 3245,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 7.9077,
+    "lon": 8.8098,
+    "attacks": 3245,
+    "incidents": 22,
+    "ports": [
+      8080
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.229",
+    "count": 3184,
+    "country": "Республика Корея",
+    "countryCode": "KR",
+    "lat": 38.7859,
+    "lon": 127.8461,
+    "attacks": 3184,
+    "incidents": 22,
+    "ports": [
+      23,
+      25,
+      139,
+      5900
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.112",
+    "count": 3150,
+    "country": "Индонезия",
+    "countryCode": "ID",
+    "lat": -5.8456,
+    "lon": 107.0668,
+    "attacks": 3150,
+    "incidents": 19,
+    "ports": [
+      110
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "198.51.100.211",
+    "count": 3025,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 51.1385,
+    "lon": 6.3472,
+    "attacks": 3025,
+    "incidents": 20,
+    "ports": [
+      53
+    ],
+    "severity": "critical"
+  },
+  {
+    "ip": "203.0.113.188",
+    "count": 2984,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 8.2599,
+    "lon": 8.0865,
+    "attacks": 2984,
+    "incidents": 16,
+    "ports": [
+      110
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.204",
+    "count": 2938,
+    "country": "Канада",
+    "countryCode": "CA",
+    "lat": 46.3307,
+    "lon": -74.8165,
+    "attacks": 2938,
+    "incidents": 23,
+    "ports": [
+      139
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.14",
+    "count": 2931,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 7.5868,
+    "lon": 6.6118,
+    "attacks": 2931,
+    "incidents": 32,
+    "ports": [
+      23,
+      110,
+      6379
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.189",
+    "count": 2931,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 52.625,
+    "lon": 4.2122,
+    "attacks": 2931,
+    "incidents": 23,
+    "ports": [
+      53,
+      80,
+      139,
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.5",
+    "count": 2862,
+    "country": "Египет",
+    "countryCode": "EG",
+    "lat": 31.1597,
+    "lon": 32.0645,
+    "attacks": 2862,
+    "incidents": 23,
+    "ports": [
+      443,
+      445,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.110",
+    "count": 2842,
+    "country": "Германия",
+    "countryCode": "DE",
+    "lat": 51.7356,
+    "lon": 14.6269,
+    "attacks": 2842,
+    "incidents": 30,
+    "ports": [
+      110,
+      139,
+      443
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.240",
+    "count": 2834,
+    "country": "Вьетнам",
+    "countryCode": "VN",
+    "lat": 20.0763,
+    "lon": 106.1199,
+    "attacks": 2834,
+    "incidents": 31,
+    "ports": [
+      443,
+      5900,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.214",
+    "count": 2732,
+    "country": "Польша",
+    "countryCode": "PL",
+    "lat": 51.6896,
+    "lon": 19.8716,
+    "attacks": 2732,
+    "incidents": 37,
+    "ports": [
+      23,
+      6379
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.228",
+    "count": 2705,
+    "country": "Бразилия",
+    "countryCode": "BR",
+    "lat": -24.1619,
+    "lon": -47.1792,
+    "attacks": 2705,
+    "incidents": 20,
+    "ports": [
+      139
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.117",
+    "count": 2690,
+    "country": "Аргентина",
+    "countryCode": "AR",
+    "lat": -35.0972,
+    "lon": -58.8338,
+    "attacks": 2690,
+    "incidents": 14,
+    "ports": [
+      1433
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.55",
+    "count": 2639,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 51.8903,
+    "lon": 5.3261,
+    "attacks": 2639,
+    "incidents": 13,
+    "ports": [
+      23,
+      135,
+      3389,
+      6379
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.50",
+    "count": 2633,
+    "country": "Япония",
+    "countryCode": "JP",
+    "lat": 34.8451,
+    "lon": 140.957,
+    "attacks": 2633,
+    "incidents": 17,
+    "ports": [
+      135,
+      445,
+      5900
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.119",
+    "count": 2624,
+    "country": "Румыния",
+    "countryCode": "RO",
+    "lat": 43.4833,
+    "lon": 26.6419,
+    "attacks": 2624,
+    "incidents": 15,
+    "ports": [
+      22,
+      135,
+      5900,
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.54",
+    "count": 2622,
+    "country": "Турция",
+    "countryCode": "TR",
+    "lat": 40.7911,
+    "lon": 33.2793,
+    "attacks": 2622,
+    "incidents": 14,
+    "ports": [
+      139
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.243",
+    "count": 2604,
+    "country": "Россия",
+    "countryCode": "RU",
+    "lat": 54.9482,
+    "lon": 37.3983,
+    "attacks": 2604,
+    "incidents": 40,
+    "ports": [
+      5900
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.65",
+    "count": 2487,
+    "country": "Япония",
+    "countryCode": "JP",
+    "lat": 36.0291,
+    "lon": 140.4623,
+    "attacks": 2487,
+    "incidents": 24,
+    "ports": [
+      80,
+      3306,
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.153",
+    "count": 2473,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 9.9115,
+    "lon": 6.671,
+    "attacks": 2473,
+    "incidents": 17,
+    "ports": [
+      80
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.149",
+    "count": 2407,
+    "country": "Сингапур",
+    "countryCode": "SG",
+    "lat": 0.8086,
+    "lon": 102.61,
+    "attacks": 2407,
+    "incidents": 30,
+    "ports": [
+      443
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.118",
+    "count": 2356,
+    "country": "Бразилия",
+    "countryCode": "BR",
+    "lat": -22.9084,
+    "lon": -46.2314,
+    "attacks": 2356,
+    "incidents": 32,
+    "ports": [
+      21,
+      445,
+      1433,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.101",
+    "count": 2352,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 9.4125,
+    "lon": 6.9439,
+    "attacks": 2352,
+    "incidents": 13,
+    "ports": [
+      110,
+      3306
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.162",
+    "count": 2316,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 53.8553,
+    "lon": 5.5166,
+    "attacks": 2316,
+    "incidents": 29,
+    "ports": [
+      53,
+      135
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.236",
+    "count": 2311,
+    "country": "Аргентина",
+    "countryCode": "AR",
+    "lat": -33.906,
+    "lon": -59.3182,
+    "attacks": 2311,
+    "incidents": 17,
+    "ports": [
+      5900,
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.182",
+    "count": 2304,
+    "country": "Таиланд",
+    "countryCode": "TH",
+    "lat": 14.7446,
+    "lon": 99.8157,
+    "attacks": 2304,
+    "incidents": 33,
+    "ports": [
+      110,
+      6379,
+      8080,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.53",
+    "count": 2261,
+    "country": "Великобритания",
+    "countryCode": "GB",
+    "lat": 50.6453,
+    "lon": -1.4762,
+    "attacks": 2261,
+    "incidents": 16,
+    "ports": [
+      21,
+      3306,
+      5432,
+      5900
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.147",
+    "count": 2191,
+    "country": "Франция",
+    "countryCode": "FR",
+    "lat": 47.4605,
+    "lon": 2.9337,
+    "attacks": 2191,
+    "incidents": 11,
+    "ports": [
+      135,
+      139
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.205",
+    "count": 2151,
+    "country": "Республика Корея",
+    "countryCode": "KR",
+    "lat": 37.6918,
+    "lon": 128.4258,
+    "attacks": 2151,
+    "incidents": 25,
+    "ports": [
+      22,
+      25,
+      443,
+      6379
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.79",
+    "count": 2017,
+    "country": "Индия",
+    "countryCode": "IN",
+    "lat": 27.5263,
+    "lon": 75.914,
+    "attacks": 2017,
+    "incidents": 23,
+    "ports": [
+      445,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.164",
+    "count": 1963,
+    "country": "Вьетнам",
+    "countryCode": "VN",
+    "lat": 20.8717,
+    "lon": 106.249,
+    "attacks": 1963,
+    "incidents": 32,
+    "ports": [
+      139,
+      3306
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.174",
+    "count": 1960,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 51.0937,
+    "lon": 6.038,
+    "attacks": 1960,
+    "incidents": 14,
+    "ports": [
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.139",
+    "count": 1901,
+    "country": "Иран",
+    "countryCode": "IR",
+    "lat": 36.7272,
+    "lon": 50.0032,
+    "attacks": 1901,
+    "incidents": 25,
+    "ports": [
+      139,
+      443
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.193",
+    "count": 1874,
+    "country": "Великобритания",
+    "countryCode": "GB",
+    "lat": 51.0378,
+    "lon": -0.5972,
+    "attacks": 1874,
+    "incidents": 11,
+    "ports": [
+      23,
+      25,
+      6379,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.157",
+    "count": 1824,
+    "country": "Германия",
+    "countryCode": "DE",
+    "lat": 53.1701,
+    "lon": 12.9811,
+    "attacks": 1824,
+    "incidents": 9,
+    "ports": [
+      135
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.104",
+    "count": 1820,
+    "country": "Мексика",
+    "countryCode": "MX",
+    "lat": 19.7041,
+    "lon": -97.8893,
+    "attacks": 1820,
+    "incidents": 21,
+    "ports": [
+      22
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.57",
+    "count": 1818,
+    "country": "Франция",
+    "countryCode": "FR",
+    "lat": 48.8029,
+    "lon": 1.0602,
+    "attacks": 1818,
+    "incidents": 18,
+    "ports": [
+      23,
+      139,
+      8080,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.182",
+    "count": 1794,
+    "country": "Нидерланды",
+    "countryCode": "NL",
+    "lat": 51.6034,
+    "lon": 5.6178,
+    "attacks": 1794,
+    "incidents": 11,
+    "ports": [
+      135
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.15",
+    "count": 1727,
+    "country": "Великобритания",
+    "countryCode": "GB",
+    "lat": 50.78,
+    "lon": 0.5643,
+    "attacks": 1727,
+    "incidents": 18,
+    "ports": [
+      22,
+      53
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.118",
+    "count": 1724,
+    "country": "Таиланд",
+    "countryCode": "TH",
+    "lat": 12.9492,
+    "lon": 100.0698,
+    "attacks": 1724,
+    "incidents": 18,
+    "ports": [
+      3306,
+      5900,
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "198.51.100.196",
+    "count": 1701,
+    "country": "Германия",
+    "countryCode": "DE",
+    "lat": 53.6175,
+    "lon": 14.2479,
+    "attacks": 1701,
+    "incidents": 10,
+    "ports": [
+      23,
+      25,
+      53,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.130",
+    "count": 1603,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 7.6431,
+    "lon": 6.121,
+    "attacks": 1603,
+    "incidents": 8,
+    "ports": [
+      110,
+      443,
+      5900,
+      6379
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.35",
+    "count": 1580,
+    "country": "Россия",
+    "countryCode": "RU",
+    "lat": 57.0698,
+    "lon": 37.7225,
+    "attacks": 1580,
+    "incidents": 9,
+    "ports": [
+      25,
+      443,
+      27017
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.110",
+    "count": 1516,
+    "country": "Канада",
+    "countryCode": "CA",
+    "lat": 45.1051,
+    "lon": -74.9164,
+    "attacks": 1516,
+    "incidents": 22,
+    "ports": [
+      25,
+      3306,
+      3389,
+      8080
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.186",
+    "count": 1327,
+    "country": "Иран",
+    "countryCode": "IR",
+    "lat": 35.7562,
+    "lon": 52.6398,
+    "attacks": 1327,
+    "incidents": 22,
+    "ports": [
+      22,
+      443,
+      1433,
+      5900
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "192.0.2.142",
+    "count": 1201,
+    "country": "Таиланд",
+    "countryCode": "TH",
+    "lat": 14.9101,
+    "lon": 99.2902,
+    "attacks": 1201,
+    "incidents": 8,
+    "ports": [
+      23,
+      80,
+      139
+    ],
+    "severity": "high"
+  },
+  {
+    "ip": "203.0.113.165",
+    "count": 1003,
+    "country": "Нигерия",
+    "countryCode": "NG",
+    "lat": 10.0946,
+    "lon": 7.9671,
+    "attacks": 1003,
+    "incidents": 8,
+    "ports": [
+      139,
+      445,
+      27017
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "203.0.113.50",
+    "count": 962,
+    "country": "США",
+    "countryCode": "US",
+    "lat": 39.2881,
+    "lon": -76.8609,
+    "attacks": 962,
+    "incidents": 8,
+    "ports": [
+      110,
+      6379
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "203.0.113.136",
+    "count": 888,
+    "country": "Канада",
+    "countryCode": "CA",
+    "lat": 45.4604,
+    "lon": -74.8984,
+    "attacks": 888,
+    "incidents": 12,
+    "ports": [
+      53,
+      135
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "203.0.113.254",
+    "count": 831,
+    "country": "Индонезия",
+    "countryCode": "ID",
+    "lat": -5.9586,
+    "lon": 106.5848,
+    "attacks": 831,
+    "incidents": 12,
+    "ports": [
+      53
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "198.51.100.11",
+    "count": 783,
+    "country": "Индонезия",
+    "countryCode": "ID",
+    "lat": -6.223,
+    "lon": 105.4361,
+    "attacks": 783,
+    "incidents": 8,
+    "ports": [
+      21,
+      135
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "198.51.100.160",
+    "count": 776,
+    "country": "Бразилия",
+    "countryCode": "BR",
+    "lat": -22.1534,
+    "lon": -45.2165,
+    "attacks": 776,
+    "incidents": 8,
+    "ports": [
+      22,
+      445
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "203.0.113.203",
+    "count": 733,
+    "country": "Великобритания",
+    "countryCode": "GB",
+    "lat": 50.4228,
+    "lon": 0.6422,
+    "attacks": 733,
+    "incidents": 8,
+    "ports": [
+      53,
+      139,
+      3389
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "192.0.2.184",
+    "count": 594,
+    "country": "Индия",
+    "countryCode": "IN",
+    "lat": 30.0959,
+    "lon": 76.3608,
+    "attacks": 594,
+    "incidents": 3,
+    "ports": [
+      80,
+      5432
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "192.0.2.136",
+    "count": 534,
+    "country": "Польша",
+    "countryCode": "PL",
+    "lat": 50.7455,
+    "lon": 22.1952,
+    "attacks": 534,
+    "incidents": 3,
+    "ports": [
+      3306
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "192.0.2.141",
+    "count": 503,
+    "country": "Египет",
+    "countryCode": "EG",
+    "lat": 28.7434,
+    "lon": 29.8218,
+    "attacks": 503,
+    "incidents": 7,
+    "ports": [
+      27017
+    ],
+    "severity": "medium"
+  },
+  {
+    "ip": "198.51.100.244",
+    "count": 364,
+    "country": "Франция",
+    "countryCode": "FR",
+    "lat": 49.4182,
+    "lon": 2.0449,
+    "attacks": 364,
+    "incidents": 2,
+    "ports": [
+      22
+    ],
+    "severity": "low"
+  },
+  {
+    "ip": "203.0.113.51",
+    "count": 318,
+    "country": "США",
+    "countryCode": "US",
+    "lat": 39.0393,
+    "lon": -78.1856,
+    "attacks": 318,
+    "incidents": 3,
+    "ports": [
+      445,
+      3306
+    ],
+    "severity": "low"
+  },
+  {
+    "ip": "203.0.113.127",
+    "count": 305,
+    "country": "Япония",
+    "countryCode": "JP",
+    "lat": 34.4386,
+    "lon": 139.6313,
+    "attacks": 305,
+    "incidents": 5,
+    "ports": [
+      25,
+      1433
+    ],
+    "severity": "low"
+  },
+  {
+    "ip": "198.51.100.189",
+    "count": 275,
+    "country": "Япония",
+    "countryCode": "JP",
+    "lat": 36.0941,
+    "lon": 139.1307,
+    "attacks": 275,
+    "incidents": 2,
+    "ports": [
+      5900,
+      6379
+    ],
+    "severity": "low"
+  },
+  {
+    "ip": "192.0.2.27",
+    "count": 159,
+    "country": "Франция",
+    "countryCode": "FR",
+    "lat": 47.6812,
+    "lon": 0.9982,
+    "attacks": 159,
+    "incidents": 1,
+    "ports": [
+      443,
+      5432,
+      27017
+    ],
+    "severity": "low"
+  },
+  {
+    "ip": "203.0.113.125",
+    "count": 67,
+    "country": "Румыния",
+    "countryCode": "RO",
+    "lat": 44.1552,
+    "lon": 25.4284,
+    "attacks": 67,
+    "incidents": 1,
+    "ports": [
+      21,
+      135,
+      445
+    ],
+    "severity": "low"
+  }
+]

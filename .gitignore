@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Env / local
+.env
+.env.example
+.DS_Store
+
+# Demo artifacts
+qr.png
+e2e_screenshot.png
+
+# IDE
+.idea/
+.vscode/
