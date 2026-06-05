@@ -1,47 +1,73 @@
-"""E2E: проверить SOC-карту угроз — рендер, KPI, фильтры, офлайн (ноль внешних запросов)."""
+"""Браузерный e2e для SOC-панели: карта, точки, KPI, фильтры, импорт, офлайн."""
+import sys
 from playwright.sync_api import sync_playwright
 
-BASE = "http://127.0.0.1:8010"
+URL = "http://localhost:8000/"
+errors, external = [], []
 
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True)
-    page = browser.new_page(viewport={"width": 1440, "height": 810})
-    errors, external = [], []
-    page.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
-    page.on("request", lambda r: external.append(r.url)
-            if not r.url.startswith(BASE) and not r.url.startswith("data:") else None)
-    page.goto(BASE)
-    page.wait_for_load_state("networkidle")
-    page.wait_for_selector("g.hotspot", timeout=10000)
-    page.wait_for_timeout(1500)
 
-    hotspots = page.locator("g.hotspot").count()
-    kpis = {k: page.locator(f"#{k}").inner_text()
-            for k in ["kAttacks", "kIps", "kCountries", "kCrit"]}
-    bars = page.locator(".bar").count()
+def run():
+    with sync_playwright() as p:
+        b = p.chromium.launch(headless=True)
+        pg = b.new_page(viewport={"width": 1440, "height": 900})
+        pg.on("console", lambda m: errors.append(m.text) if m.type == "error" else None)
+        pg.on("pageerror", lambda e: errors.append(str(e)))
 
-    # фильтр: выключаем low/medium/high -> остаются только critical
-    for sev in ["low", "medium", "high"]:
-        page.click(f'.chip[data-sev="{sev}"]')
-    page.wait_for_timeout(700)
-    hotspots_crit = page.locator("g.hotspot").count()
+        def on_req(r):
+            u = r.url
+            if not (u.startswith("http://localhost") or u.startswith("data:") or u.startswith("blob:")):
+                external.append(u)
+        pg.on("request", on_req)
 
-    # threat-score slider -> поднимаем порог
-    page.eval_on_selector("#score", "el => { el.value = 4000; el.dispatchEvent(new Event('input')); }")
-    page.wait_for_timeout(500)
-    hotspots_high_score = page.locator("g.hotspot").count()
+        pg.goto(URL, wait_until="networkidle")
+        pg.wait_for_timeout(1500)
 
-    page.screenshot(path="e2e_screenshot.png")
-    log_after = page.locator("#log .ev").count()
-    browser.close()
+        countries = pg.eval_on_selector_all(".country", "els => els.length")
+        points = pg.eval_on_selector_all(".pt", "els => els.length")
+        kpi_attacks = pg.inner_text("#kpiAttacks")
+        kpi_ips = pg.inner_text("#kpiIps")
+        kpi_countries = pg.inner_text("#kpiCountries")
+        bars = pg.eval_on_selector_all("#bars .bar", "els => els.length")
 
-    print({
-        "hotspots_all": hotspots,
-        "kpis": kpis,
-        "top_bars": bars,
-        "hotspots_critical_only": hotspots_crit,
-        "hotspots_critical_score>=4000": hotspots_high_score,
-        "live_log_events": log_after,
-        "console_errors": errors,
-        "external_requests": external,
-    })
+        # клик по точке -> попап
+        pg.eval_on_selector(".pt", "el => el.dispatchEvent(new MouseEvent('click', {bubbles:true, clientX:200, clientY:200}))")
+        pg.wait_for_timeout(300)
+        popup = pg.is_visible("#popup")
+
+        # фильтр: выключить critical
+        before = pg.eval_on_selector_all(".pt", "els => els.length")
+        pg.click('.chip[data-sev="critical"]')
+        pg.wait_for_timeout(300)
+        after_filter = pg.eval_on_selector_all(".pt", "els => els.length")
+        pg.click('.chip[data-sev="critical"]')  # вернуть
+
+        # слайдер threat-score
+        pg.eval_on_selector("#scoreSlider", "el => { el.value = el.max; el.dispatchEvent(new Event('input')); }")
+        pg.wait_for_timeout(300)
+        after_slider = pg.eval_on_selector_all(".pt", "els => els.length")
+        pg.eval_on_selector("#scoreSlider", "el => { el.value = 0; el.dispatchEvent(new Event('input')); }")
+
+        # live log тикает
+        pg.wait_for_timeout(4500)
+        log = pg.eval_on_selector_all("#log .e", "els => els.length")
+
+        b.close()
+
+        print(f"countries={countries} points={points}")
+        print(f"KPI: attacks={kpi_attacks} ips={kpi_ips} countries={kpi_countries}")
+        print(f"bars={bars} popup={popup}")
+        print(f"filter critical-off: {before} -> {after_filter}")
+        print(f"slider max: -> {after_slider}")
+        print(f"log entries after ~4.5s: {log}")
+        print(f"console errors: {errors}")
+        print(f"external requests: {external}")
+
+        ok = (countries > 100 and points == 100 and bars > 0 and popup
+              and after_filter < before and after_slider < before
+              and log >= 1 and not errors and not external
+              and kpi_ips == "100")
+        print("RESULT:", "PASS" if ok else "FAIL")
+        sys.exit(0 if ok else 1)
+
+
+run()
